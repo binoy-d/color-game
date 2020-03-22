@@ -2,9 +2,8 @@ body {
     background-color:#111111
 }
 #container{
-    width:80%;
-    margin-top:10%;
-    margin-left:10%;
+    width:100%;
+    margin-top:2%;
 }
 #target-color{
     color:white;
@@ -20,9 +19,15 @@ body {
     width:100%;
     margin-bottom: 1%;
 }
+
+#guess{
+    color: #999999;
+    text-align: center;
+    font-size: xx-large;
+}
 #squares{
     width:60%;
-    margin-left:20%;
+    margin:auto;
 }
 
 .game-square {
@@ -32,4 +37,7 @@ body {
     padding:45%;
     background-color:red;
     color:red;
+}
+.btn:focus {
+    outline: none;
 }
