@@ -1,0 +1,35 @@
+body {
+    background-color:#111111
+}
+#container{
+    width:80%;
+    margin-top:10%;
+    margin-left:10%;
+}
+#target-color{
+    color:white;
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top:0%;
+}
+#heading{
+    margin-top: 0%;
+    padding-top:0%;
+}
+#restart-button{
+    width:100%;
+    margin-bottom: 1%;
+}
+#squares{
+    width:60%;
+    margin-left:20%;
+}
+
+.game-square {
+    border-radius: 10%;
+    border:none;
+    margin:5%;
+    padding:45%;
+    background-color:red;
+    color:red;
+}

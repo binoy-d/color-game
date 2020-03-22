@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body onload="setup()">
+    <div id="container">
+        <div id="controls" class="row justify-content-center">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                <button id="restart-button" class="btn btn-primary" onclick="restart()">Restart</button>
+            </div>
+        </div>
+        <div id="heading" class="row justify-content-center">
+            <div class="col-12">
+                <h1 id="target-color" class=""></h1>
+            </div>
+        </div>
+        <div id = "squares" class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+                <button class="game-square"></button>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <button class="game-square"></button>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <button class="game-square"></button>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <button class="game-square"></button>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <button class="game-square"></button>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <button class="game-square"></button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
