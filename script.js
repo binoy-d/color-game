@@ -22,6 +22,7 @@ function setup(){
 }
 
 function checkClick(){
+    document.body.style.backgroundColor = "#111111";
     if(this.style.backgroundColor == targetColor){
         won = true;
         document.body.style.backgroundColor = targetColor;
