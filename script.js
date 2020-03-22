@@ -11,7 +11,7 @@ function setup(){
     targetColor = getRandomColor()
     var all_squares = document.getElementsByClassName('game-square');
     document.getElementById('target-color').innerHTML = targetColor;
-    document.body.style.backgroundColor = "#11111";
+    document.body.style.backgroundColor = "#111111";
     for(var i = 0;i<all_squares.length;i++){
         all_squares[i].style.backgroundColor = getRandomColor();
         all_squares[i].classList.remove("invisible");
