@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="style.css">
     
 </head>
-<body onload="setup()">
+<body onload="setup()" onkeypress="keyPressed(event)">
     <div id="container">
         <h1 id="guess">Guess the color!!!</h1>
         <div id="controls" class="row justify-content-center">
             <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                <button id="restart-button" class="btn btn-primary" onclick="restart()">Restart</button>
+                <button id="restart-button" class="btn btn-primary" onclick="restart()">Restart(space)</button>
             </div>
         </div>
         <div id="heading" class="row justify-content-center">

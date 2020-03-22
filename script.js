@@ -43,3 +43,10 @@ function getRandomColor(){
 function restart(){
     setup();
 }
+
+function keyPressed(event){
+    var x = event.which || event.keyCode();
+    if(x==32){
+        restart();
+    }
+}
