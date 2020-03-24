@@ -1,5 +1,6 @@
 body {
-    background-color:#111111
+    background-color:#111111;
+    transition: 0.25s linear;
 }
 #container{
     width:100%;
